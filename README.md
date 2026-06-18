@@ -1,6 +1,6 @@
 # PGSR-Conf: Confidence-Guided PGSR for Indoor Reconstruction
 
-This repository presents **PGSR-Conf**, a family of three confidence-guided variants built upon [PGSR](https://github.com/zju3dv/PGSR) (Planar-based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction). Inspired by the confidence-weighted depth supervision in [ConfDepth](https://github.com/), we transfer the idea of *selectively trusting geometry constraints* into PGSR's normal consistency framework, improving rendering quality while preserving geometric accuracy.
+This repository presents PGSR-Conf, a family of three confidence-guided variants built upon PGSR (Planar-based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction). We introduce confidence-weighted modulation of geometric constraints into PGSR's normal consistency framework, improving rendering quality while preserving geometric accuracy.
 
 ## Motivation
 
